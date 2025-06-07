@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font: normal 20pt Arial;
+  background: orange;
+  background-image: url("imagens/gato_img.png");
+  background-repeat: no-repeat;
+}
+
+.menu-inicial {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.menu-link a {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  padding: 20px;
+  color: aliceblue;
+  transition: color, 0.5s;
+}
+
+.menu-link a:hover {
+  color: black;
+}
+
+img#logo-gato {
+  width: 100px;
+  height: 100px;
+}
+
+.dados {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: aliceblue;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.dados form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.dados label {
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.dados input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.botao-cadastro {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  background-color: transparent;
+  color: white;
+  padding: 10px 120px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botao-cadastro:hover {
+  background-color: #000000;
+  transform: scale(1.1);
+}
+
+#foto-gato {
+  display: block;
+  margin: 40px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px;
+}
